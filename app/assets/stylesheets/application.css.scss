@@ -1,5 +1,8 @@
+body{
+  background-origin: #ccc
+}
 .welcome {
-  background-color: #ccc;
+  background-color: #fff;
   text-align: center;
 }
 .welcome p {
@@ -17,4 +20,6 @@ div {
     -webkit-flex-direction: column; /* Safari 6.1+ */
     display: flex;
     flex-direction: column;
+}
+footer{
 }
