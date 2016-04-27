@@ -10,6 +10,10 @@ li{
   display: inline-flex;
 }
 
+a{
+  text-decoration: none;
+}
+
 .welcome {
   background-color: #fff;
   text-align: center;
@@ -22,6 +26,10 @@ li{
 
 .menu {
   text-align: center;
+  text-transform: uppercase;
+}
+a:hover {
+  color: #ddd;
 }
 
 .footer{
