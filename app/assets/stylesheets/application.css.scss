@@ -3,7 +3,8 @@ html, body{
 }
 
 body{
-  background-origin: #ccc
+  background-color: #111212;
+  color: #fff;
 }
 
 li{
@@ -12,10 +13,12 @@ li{
 
 a{
   text-decoration: none;
+  color: #aadddd;
+  font-weight: bold;
 }
 
 .welcome {
-  background-color: #fff;
+  background-color: #222;
   text-align: center;
 }
 
@@ -29,11 +32,12 @@ a{
   text-transform: uppercase;
 }
 a:hover {
-  color: #ddd;
+  color: #fff;
 }
 
 .footer{
   text-align: center;
+  color: #fff;
 }
 
 .container{
