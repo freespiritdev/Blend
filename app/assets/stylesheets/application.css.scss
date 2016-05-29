@@ -26,11 +26,14 @@ a{
 .welcome {
   background-color: #222;
   text-align: center;
+  display: flex;  
+  flex-direction: column;  
+  min-height: 100vh; /*helps push footer to the bottom along with flexbox settings*/
 }
 
 .welcome p {
   text-align: justify;
-  flex:1;
+  flex:1;   /*helps push footer to the bottom along with flexbox settings*/
 }
 
 .menu {
